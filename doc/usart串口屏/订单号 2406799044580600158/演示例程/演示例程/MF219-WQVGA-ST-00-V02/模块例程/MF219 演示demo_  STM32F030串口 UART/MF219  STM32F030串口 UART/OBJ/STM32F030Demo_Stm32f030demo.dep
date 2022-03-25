@@ -1,0 +1,122 @@
+Dependencies for Project 'STM32F030Demo', Target 'Stm32f030demo': (DO NOT MODIFY !)
+F (.\main.c)(0x5F8D96DB)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (system_stm32f0xx.h)(0x574D3404)
+I (stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+I (..\SYSTEM\delay.h)(0x574D3404)
+I (..\HARDWARE\led.h)(0x5D15B711)
+I (..\HARDWARE\USART1.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+I (..\HARDWARE\Key.h)(0x574D3404)
+F (.\stm32f0xx_it.c)(0x574D3404)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\stm32f0xx_it.o --omf_browse ..\obj\stm32f0xx_it.crf --depend ..\obj\stm32f0xx_it.d)
+I (stm32f0xx_it.h)(0x574D3404)
+I (stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (system_stm32f0xx.h)(0x574D3404)
+I (stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+F (.\system_stm32f0xx.c)(0x574D3404)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\system_stm32f0xx.o --omf_browse ..\obj\system_stm32f0xx.crf --depend ..\obj\system_stm32f0xx.d)
+I (stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (system_stm32f0xx.h)(0x574D3404)
+I (stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+F (..\CORE\startup_stm32f0xx.s)(0x574D3404)(--cpu Cortex-M0 -g --apcs=interwork -I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F030x6 SETA 1"--list .\startup_stm32f0xx.lst --xref -o ..\obj\startup_stm32f0xx.o --depend ..\obj\startup_stm32f0xx.d)
+F (..\HARDWARE\USART1.c)(0x5F8A63DC)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\usart1.o --omf_browse ..\obj\usart1.crf --depend ..\obj\usart1.d)
+I (..\HARDWARE\USART1.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (..\User\system_stm32f0xx.h)(0x574D3404)
+I (..\User\stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599ECD2C)
+F (..\SYSTEM\delay.c)(0x5D15B711)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\SYSTEM\delay.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (..\User\system_stm32f0xx.h)(0x574D3404)
+I (..\User\stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+F (..\STM32F03x_FWLib\src\stm32f0xx_gpio.c)(0x574D3404)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\stm32f0xx_gpio.o --omf_browse ..\obj\stm32f0xx_gpio.crf --depend ..\obj\stm32f0xx_gpio.d)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (..\User\system_stm32f0xx.h)(0x574D3404)
+I (..\User\stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+F (..\STM32F03x_FWLib\src\stm32f0xx_rcc.c)(0x574D3404)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\stm32f0xx_rcc.o --omf_browse ..\obj\stm32f0xx_rcc.crf --depend ..\obj\stm32f0xx_rcc.d)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (..\User\system_stm32f0xx.h)(0x574D3404)
+I (..\User\stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+F (..\STM32F03x_FWLib\src\stm32f0xx_misc.c)(0x574D3404)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\stm32f0xx_misc.o --omf_browse ..\obj\stm32f0xx_misc.crf --depend ..\obj\stm32f0xx_misc.d)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (..\User\system_stm32f0xx.h)(0x574D3404)
+I (..\User\stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+F (..\STM32F03x_FWLib\src\stm32f0xx_usart.c)(0x574D3404)(-c --cpu Cortex-M0 -g -W -O0 --apcs=interwork -I ..\CORE -I ..\HARDWARE -I ..\STM32F03x_FWLib\inc -I ..\STM32F03x_FWLib\src -I ..\User -I ..\SYSTEM-I.\RTE\_Stm32f030demo-IF:\tool_setup\ARM\CMSIS\5.3.0\CMSIS\Include-IF:\tool_setup\Keil\STM32F0xx_DFP\2.0.0\Drivers\CMSIS\Device\ST\STM32F0xx\Include-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX-o ..\obj\stm32f0xx_usart.o --omf_browse ..\obj\stm32f0xx_usart.crf --depend ..\obj\stm32f0xx_usart.d)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_usart.h)(0x574D3404)
+I (..\User\stm32f0xx.h)(0x5C0F2083)
+I (..\CORE\core_cm0.h)(0x574D3404)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\CORE\core_cmInstr.h)(0x574D3404)
+I (..\CORE\core_cmFunc.h)(0x574D3404)
+I (..\User\system_stm32f0xx.h)(0x574D3404)
+I (..\User\stm32f0xx_conf.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_gpio.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_rcc.h)(0x574D3404)
+I (..\STM32F03x_FWLib\inc\stm32f0xx_misc.h)(0x574D3404)
