@@ -1,4 +1,5 @@
 #include "tea5767.h"
+#include "log_cfg.h"
 
 #define MAX_FREQ 108000
 #define MIN_FREQ 87500

@@ -10,7 +10,7 @@
       <TargetName>GD32L233C_START</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
-      <pCCUsed>6150000::V6.15::ARMCLANG</pCCUsed>
+      <pCCUsed>6160000::V6.16::ARMCLANG</pCCUsed>
       <uAC6>1</uAC6>
       <TargetOption>
         <TargetCommonOption>
@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\GD32L23x_Firmware_Library\CMSIS\GD\GD32L23x\Include;..\..\GD32L23x_Firmware_Library\GD32L23x_standard_peripheral\Include;..\..\Utilities;..\..\Projects;..\source\inc;..\peripheral\led\inc;..\peripheral\usart\inc;..\peripheral\lcd;..\rt-thread\bsp;..\rt-thread\include\libc;..\rt-thread\include;..\rt-thread\components\finsh;..\peripheral\w25qxx;..\fatfs;..\peripheral\rotary\inc;..\peripheral\key;..\peripheral\ws2812;..\peripheral\tea5767</IncludePath>
+              <IncludePath>..\..\GD32L23x_Firmware_Library\CMSIS\GD\GD32L23x\Include;..\..\GD32L23x_Firmware_Library\GD32L23x_standard_peripheral\Include;..\..\Utilities;..\..\Projects;..\source\inc;..\peripheral\led\inc;..\peripheral\usart\inc;..\peripheral\lcd;..\rt-thread\bsp;..\rt-thread\include\libc;..\rt-thread\include;..\rt-thread\components\finsh;..\peripheral\w25qxx;..\fatfs;..\peripheral\rotary\inc;..\peripheral\key;..\peripheral\ws2812;..\peripheral\tea5767;..\peripheral\wifi\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -641,6 +641,11 @@
               <FileType>1</FileType>
               <FilePath>..\peripheral\tea5767\timer2.c</FilePath>
             </File>
+            <File>
+              <FileName>wifi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\peripheral\wifi\src\wifi.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -749,31 +754,6 @@
           </Files>
         </Group>
         <Group>
-          <GroupName>finsh</GroupName>
-          <Files>
-            <File>
-              <FileName>cmd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\rt-thread\components\finsh\cmd.c</FilePath>
-            </File>
-            <File>
-              <FileName>finsh_port.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\rt-thread\components\finsh\finsh_port.c</FilePath>
-            </File>
-            <File>
-              <FileName>msh.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\rt-thread\components\finsh\msh.c</FilePath>
-            </File>
-            <File>
-              <FileName>shell.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\rt-thread\components\finsh\shell.c</FilePath>
-            </File>
-          </Files>
-        </Group>
-        <Group>
           <GroupName>fatfs</GroupName>
           <Files>
             <File>
@@ -797,9 +777,6 @@
               <FilePath>..\fatfs\ffunicode.c</FilePath>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>usb_lib</GroupName>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>

@@ -123,7 +123,7 @@
 // <h>FinSH Configuration
 // <c1>include finsh config
 //  <i>Select this choice if you using FinSH 
-#include "finsh_config.h"
+//#include "finsh_config.h"
 // </c>
 // </h>
 

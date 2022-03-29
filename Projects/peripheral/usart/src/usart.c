@@ -12,8 +12,6 @@ int fputc(int ch, FILE *f)
 
 void usartInit(uint32_t usart_periph, uint32_t baud)
 {
-    uint32_t com_id = 0U;
-
     /* enable COM GPIO clock */
     rcu_periph_clock_enable(DEBUG_COM_GPIO_CLK);
 
@@ -39,6 +37,7 @@ void usartInit(uint32_t usart_periph, uint32_t baud)
     usart_baudrate_set(DEBUG_COM_PER, DEBUG_COM_BAUD);
     usart_receive_config(DEBUG_COM_PER, USART_RECEIVE_ENABLE);
     usart_transmit_config(DEBUG_COM_PER, USART_TRANSMIT_ENABLE);
+
     usart_enable(DEBUG_COM_PER);
 }
 

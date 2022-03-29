@@ -14,6 +14,8 @@
 #define WS2812_LOW						(0xC0)
 #define WS2812_HIGH						(0xF0)
 
+#define WS2812_DMACH                    (DMA_CH0)
+
 static uint8_t u8TxBuffer[24] = {0};
 static uint16_t u16BufferCnt = 0;
 
@@ -51,7 +53,7 @@ static void Spi_DmaConfig(void)
     rcu_periph_clock_enable(RCU_DMA);
 
     /* initialize DMA channel 0 */
-    dma_deinit(DMA_CH0);
+    dma_deinit(WS2812_DMACH);
     dma_struct_para_init(&dma_init_struct);
     dma_init_struct.request      = DMA_REQUEST_SPI1_TX;
     dma_init_struct.direction    = DMA_MEMORY_TO_PERIPHERAL;
@@ -63,7 +65,7 @@ static void Spi_DmaConfig(void)
     dma_init_struct.periph_inc   = DMA_PERIPH_INCREASE_DISABLE;
     dma_init_struct.periph_width = DMA_PERIPHERAL_WIDTH_8BIT;
     dma_init_struct.priority     = DMA_PRIORITY_ULTRA_HIGH;
-    dma_init(DMA_CH0, &dma_init_struct);
+    dma_init(WS2812_DMACH, &dma_init_struct);
 }
 
 void WS2812C_Init(void)
@@ -123,14 +125,14 @@ void WS2812C_SetRGB(uint32_t RGB888)
 	} 
 
     
-    dma_transfer_number_config(DMA_CH0, 24);
-    dma_channel_enable(DMA_CH0);
+    dma_transfer_number_config(WS2812_DMACH, 24);
+    dma_channel_enable(WS2812_DMACH);
 
-	while (RESET == dma_flag_get(DMA_CH0, DMA_FLAG_FTF))
+	while (RESET == dma_flag_get(WS2812_DMACH, DMA_FLAG_FTF))
 	{
 	}
-	dma_flag_clear(DMA_CH0, DMA_FLAG_FTF);
-    dma_channel_disable(DMA_CH0);
+	dma_flag_clear(WS2812_DMACH, DMA_FLAG_FTF);
+    dma_channel_disable(WS2812_DMACH);
 }
 
 void WS2812C_Reset(void)

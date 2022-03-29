@@ -79,8 +79,10 @@ int main(void)
 {
 //    PRO_LOG(LOG_DEBUG, "Entry %s. \r\n", __func__);
     MainInit();
-
+    USART1Init();
+    
     /* 创建所有任务 */
+    #if 0
 	rt_thread_init(&app_thread,
 					"app_thread",
 					app_thread_entry,
@@ -90,6 +92,7 @@ int main(void)
 					app_thread_priority,
 					1000);
 	rt_thread_startup(&app_thread);
+    #endif
 
  	/* led thread */
 	rt_thread_init(&led_thread,
@@ -133,5 +136,6 @@ static void led_thread_entry(void * para)
     {
         LED1_TOGGLE();
         LED2_TOGGLE();
+        rt_thread_delay(1000);
     }
 }
